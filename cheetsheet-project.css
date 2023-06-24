@@ -1,0 +1,20 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+th, td {
+    border-bottom: 1px solid gray;
+    padding: 9px 8px;
+}
+
+table {
+width: 100%;
+}
+
+body {
+    background-color: beige;
+}
+
+th {
+    background-color: rgb(157, 218, 157);
+}
