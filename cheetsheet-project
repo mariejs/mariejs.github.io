@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheetsheet from Marie</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>CSS selectors</h1>
+    <div>CSS selectors define the pattern to select elements to which a set of CSS rules are then applied.
+        CSS selectors can be grouped into the following categories based on the type of elements they can select.
+        </div>
+
+    <h2>Basic selectors</h2>
+    <table>
+        <tr>
+       <th>Name of the selector</th>
+       <th>Description</th>
+       <th>Syntax</th>
+       <th>Example</th>     
+        </tr>
+        <tr>
+            <td>Universal selector</td>
+            <td>Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.</td>
+            <td>*</td>
+            <td>* will match all the elements of the document</td>
+        </tr>
+        <tr>
+            <td>Type selector</td>
+            <td>Selects all elements that have the given node name.</td>
+            <td>elementname</td>
+            <td>input will match any <'input'> element</td>
+        </tr>
+        <tr>
+            <td>Class selector</td>
+            <td>Selects all elements that have the given class attribute.</td>
+            <td>.classname</td>
+            <td>.index will match any element that has class="index".</td>
+        </tr>
+            <tr>
+                <td>ID selector</td>
+                <td>Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.</td>
+                <td>#idname</td>
+                <td>#toc will match the element that has id="toc".</td>
+
+            </tr>
+        <tr>
+            <td>Attribute selector</td>
+            <td>Selects all elements that have the given attribute.</td>
+            <td>[attr]</td>
+            <td>[autoplay] will match all elements that have the autoplay attribute set (to any value).</td>
+        </tr>
+    </table>
+</body>
+</html>
